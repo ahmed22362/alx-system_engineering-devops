@@ -1,3 +1,1 @@
-#!/bin/bash
-echo {a..z}{a..z} | tr " " "
-" | grep -v "oo" 
+#!/bin/bash\nprintf "%s\n" {a..z}{a..z} | grep -v "oo"
